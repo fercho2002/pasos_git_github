@@ -1,0 +1,49 @@
+primero git init 
+
+$ git remote add origin git@github.com:fercho2002/AutomatizacionTutorial.git
+
+$ git remote -v
+origin  git@github.com:fercho2002/AutomatizacionTutorial.git (fetch)
+origin  git@github.com:fercho2002/AutomatizacionTutorial.git (push)
+
+
+este error : 
+
+$ git pull origin master
+Enter passphrase for key '/c/Users/ferto/.ssh/id_rsa':
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+Unpacking objects: 100% (3/3), 663 bytes | 13.00 KiB/s, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+From github.com:fercho2002/AutomatizacionTutorial
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+
+se soluciona asi :
+
+$ git pull origin master --allow-unrelated-histories
+
+
+para salir de el vim esas leyras amerillas esc shif-z-z
+
+
+
+git push origin master ---  para enviar  al repositorio 
+
+
+ 
+
+git branch (me muestra las ramas que tengo)
+
+git branch ramaUno 
+crea esa rama 
+
+git push origin ramaUno envia esa rama al repositorio 
+
+git checkout ramaUno (me cambio a esa rama en el local)
+
+el git clone httpsstoda la url de ssh o http 
+ese se hace con una carpeta vacia.
+
