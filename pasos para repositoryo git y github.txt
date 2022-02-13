@@ -47,3 +47,10 @@ git checkout ramaUno (me cambio a esa rama en el local)
 el git clone httpsstoda la url de ssh o http 
 ese se hace con una carpeta vacia.
 
+
+
+.gitignore =  creo este archivo en la raiz de el proyecto y despues dentro de ese pongo la ruta de lo que va a ignorar 
+puede ser un archivo en concreto o una carpeta :
+este es un ejemplo: /Python/__pycache__   -- esto va dentro de el archivo .gitignore
+en este link hay mas informacion de eso jaja : https://styde.net/exclusion-de-ficheros-en-un-repositorio-git/
+
