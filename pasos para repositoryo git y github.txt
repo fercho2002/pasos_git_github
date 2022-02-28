@@ -54,3 +54,7 @@ puede ser un archivo en concreto o una carpeta :
 este es un ejemplo: /Python/__pycache__   -- esto va dentro de el archivo .gitignore
 en este link hay mas informacion de eso jaja : https://styde.net/exclusion-de-ficheros-en-un-repositorio-git/
 
+
+
+$ git remote set-url origin "https://github.com/USERNAME/REPOSITORY.git" o depronto sion las comillas con ese comando cambiamos el origin de url
+
