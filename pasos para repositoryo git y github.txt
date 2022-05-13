@@ -26,8 +26,16 @@ se soluciona asi :
 $ git pull origin master --allow-unrelated-histories
 
 
-para salir de el vim esas leyras amerillas esc shif-z-z
-
+// ---- ----- ------ -esto es para el VIM- ---- --- ---- ---- ---  //
+con el comando touch ejemplo.txt // eso crear ese arichivo.txt
+con el comando vim ejemplo.txt // eso abre el archivo en el editor de texto 
+para salir de el vim esas leyras amerillas esc shif-z-z 
+la otra forma es que cuando acabe de escribir preciono esc para dejar de escribir y poder usar los comandos de vim
+que se podran ver cuando los escrivo en la parte de abajo:
+:w // eso es para guardar sin salir de vim 
+:wq // eso guarda los cambios sin salir de el editor 
+:q! // sale de el editor sin guardar cambios 
+//-- --- ---- --- ---- ---- --- --- --- ---- --- -- ---- --- --- ---- //
 
 
 git push origin master ---  para enviar  al repositorio 
